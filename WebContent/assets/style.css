@@ -1,0 +1,39 @@
+body{
+	margin:0;
+}
+
+
+#input_ui{
+	position:relative;
+	height:30vh;
+	background-color: #f3f3f3;
+	border: 2px dashed #b3b3b3;
+  	border-radius: 4px;
+	padding-top:20px;
+	padding-left:20px;
+	padding:0px!important;	
+	
+
+}
+
+#fileInput{
+	position:absolute;
+	top:0!important;
+	left:0!important;
+	height:30vh;
+	width:100%;
+	background-color: #d9d9;
+	padding-top:20px;
+	padding-left:20px;
+	box-shadow: 2px 2px 2px black;
+	opacity:0%;
+}
+#input_ui input[type='file']:focus{
+	outline:none;
+}
+#input_ui p{
+	line-height:30vh;
+	margin-left:3rem;
+}
+
+
